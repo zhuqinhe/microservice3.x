@@ -103,9 +103,12 @@
 		<module>microservice-seata-order</module>
 		<module>microservice-seate-storage</module>
 		<module>microservice-discovery-nacos-stream-rabbitmq-provider-1</module>
-		<module>microservice-discovery-nacos-stream-rabbitmq-provider-2</module>
+		<module>microservice-discovery-nacos-stream-rocketmq-provider-2</module>
 		<module>microservice-discovery-nacos-stream-rabbitmq-consumer-1</module>
-		<module>microservice-discovery-nacos-stream-rabbitmq-consumer-2</module>
+		<module>microservice-discovery-nacos-stream-rocketmq-consumer-2</module>
+		<module>microservice-discovery-nacos-dubbo-provider</module>
+		<module>microservice-discovery-nacos-dubbo-consumer</module>
+		
 	</modules>
 
 </project>

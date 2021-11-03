@@ -7,8 +7,8 @@
 		<artifactId>microservice-spring-cloud-alibaba</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<groupId>microservice-discovery-nacos-stream-rabbitmq-consumer-2</groupId>
-	<artifactId>microservice-discovery-nacos-stream-rabbitmq-consumer-2</artifactId>
+	<groupId>microservice-discovery-nacos-dubbo-provider</groupId>
+	<artifactId>microservice-discovery-nacos-dubbo-provider</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	
 	<dependencies>
@@ -39,14 +39,10 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
-		<!--rabbitmq -->
-		<!--<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-stream-rabbit</artifactId>
-		</dependency>-->
-		<dependency>
-			<groupId>com.alibaba.cloud</groupId>
-			<artifactId>spring-cloud-starter-stream-rocketmq</artifactId>
-		</dependency>
+		    <!-- Dubbo Spring Cloud Starter -->
+    <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-starter-dubbo</artifactId>
+    </dependency>
     </dependencies>
 </project>
